@@ -19,6 +19,7 @@
     Private Sub mostrar()
         Try
             Dim func As New fventa
+            Dim erik as New fventa
             dt = func.mostrar
             datalistado.Columns.Item("Eliminar").Visible = False
 
